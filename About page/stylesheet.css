@@ -1,0 +1,154 @@
+
+#wrapper{
+	background-color:#333;
+	float:inherit;
+	width:900px;
+	position:relative;
+	margin:0 auto 0 auto;
+}
+h1,h2,h3{
+	font-family: 'Goudy Bookletter 1911', serif;
+	line-height:21px;
+  float: center;  
+  text-align: center; 
+	}
+a{
+	color:#FC0;
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+nav a{
+	color:#000;
+	text-decoration:none;	
+}
+
+nav a:hover{
+	color:#919191;
+	text-decoration:underline;
+}
+header{
+	float:center;
+    text-align: center;
+	background-color:#B23AEE;
+	font-family: 'Goudy Bookletter 1911', serif;
+	font-style:normal;
+	font-size:30px;
+	padding:50px 0 5px 25px;
+	color:#551A8B;
+}
+nav{
+	float:left;
+	width:875px;
+	height:30px;
+	background-color:#FC0;
+	font-family: 'Goudy Bookletter 1911', serif;
+	font-weight: bold;
+	font-size:16px;
+	color:#333;
+	padding:17px 0 3px 25px;
+
+}
+
+article{
+	float: left;
+  height: 750px;
+  margin-top: 20px;
+	width:700px;
+	background-color:#551A8B;
+	font-family: 'Goudy Bookletter 1911', serif;
+	font-style:normal;
+	font-size:16px;
+	line-height:21px;
+	color: white;
+	padding:85px 85px 5px 85px;
+	border: 5px solid #4B0082;
+
+}
+
+aside{
+	float:left;
+	width:170px;
+	background-color:#666;
+	font-family: 'Goudy Bookletter 1911', serif;
+	font-style:normal;
+	font-size:12px;
+	color:#CCC;
+	padding:25px 15px 10px 25px;
+	line-height:16px;
+		}
+
+#footer{
+		clear:both;
+		width:775px;
+		height:30px;
+		background-color:#B23AEE;
+		font-family: 'Goudy Bookletter 1911', serif;
+	font-weight:normal;
+	font-size:14px;
+	color: 551A8B;
+	padding:20px 0px 0px 40px;
+  text-align: center;  
+	}
+
+.t_images{
+float: left;
+width: 155px;
+border: 1px solid #999;
+margin: 0 15px 25px 15px;
+padding: 5px;
+}
+
+.clearboth { clear: both; }
+
+.nav{
+    list-style: none;
+    margin-top: 100;
+     margin-bottom: 900;
+    padding: 0;
+    background-color:rgb(202, 104, 113);
+    font-size: 20px;
+     Height:210px;
+     Width:134px;
+     float: right;  
+  line-height: 21px;
+  border: 5px solid #4B0082;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+     text-align: center;
+    border-bottom: 1px solid #555;
+    background-color:  #551A8B
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: white ;
+    color:#551A8B;
+}
+.active {
+    background-color: white;
+    color: #551A8B;
+}
+li:last-child {
+    border-bottom: none;
+}
+body{
+font-family: Goudy Bookletter;
+background-color: #B23AEE;
+  margin: 0;
+  padding: 4;
+  border: 10px solid #551A8B;
+}
+
+.forum { 
+	border: 4px solid #B23AEE;
+}
+
